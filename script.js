@@ -2,7 +2,7 @@ const selectMenu = document.querySelectorAll('select');
 const content = document.querySelector('.content');
 const currentTime = document.querySelectorAll('.clock');
 const setAlarmTime = document.querySelector('.set');
-const ring = new Audio('./Files/ringtone.mp3');
+const ring = new Audio('ringtone.mp3');
 
 let alarmTime;
 let isAlarmSet = false;
